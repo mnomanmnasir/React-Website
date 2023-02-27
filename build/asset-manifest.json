@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Website/static/css/main.6bb8f0c2.css",
+    "main.js": "/React-Website/static/js/main.5b08a046.js",
+    "static/js/787.e808bbcc.chunk.js": "/React-Website/static/js/787.e808bbcc.chunk.js",
+    "static/media/serviceImg3.avif": "/React-Website/static/media/serviceImg3.eb6e41c2cc6c6057c587.avif",
+    "static/media/homeImg.png": "/React-Website/static/media/homeImg.f7c39616516bed068f9f.png",
+    "static/media/serviceImg4.jpg": "/React-Website/static/media/serviceImg4.dee2bdd752390ed2e473.jpg",
+    "static/media/serviceImg6.jpg": "/React-Website/static/media/serviceImg6.693289b85adc5278b830.jpg",
+    "static/media/serviceImg2.jpg": "/React-Website/static/media/serviceImg2.260bcc342194136867e6.jpg",
+    "static/media/serviceImg1.avif": "/React-Website/static/media/serviceImg1.65ceaa30c0870d1818cb.avif",
+    "static/media/serviceImg5.avif": "/React-Website/static/media/serviceImg5.a62afab2b5404a71749f.avif",
+    "static/media/aboutImg.avif": "/React-Website/static/media/aboutImg.dc85a8a962dffe31d72a.avif",
+    "index.html": "/React-Website/index.html",
+    "main.6bb8f0c2.css.map": "/React-Website/static/css/main.6bb8f0c2.css.map",
+    "main.5b08a046.js.map": "/React-Website/static/js/main.5b08a046.js.map",
+    "787.e808bbcc.chunk.js.map": "/React-Website/static/js/787.e808bbcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb8f0c2.css",
+    "static/js/main.5b08a046.js"
+  ]
+}
