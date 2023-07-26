@@ -1,14 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 // import img1 from '../assets/serviceImg1.jpg'
 import Card from '../containers/Card'
 import Data from '../containers/Data'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Service =() => {
     
+    useEffect(() => {
+        AOS.init({ duration: 950 });
+    }, [])
+
         return (
             <div className='my-5'>
 
-                <h1 className='text-center'>
+                <h1 data-aos="fade-right" data-aos-delay="600" className='text-center'>
                     Our Services
                 </h1>
 

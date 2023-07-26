@@ -1,6 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Contact = () => {
+
+
+    useEffect(() => {
+        AOS.init({ duration: 950 });
+    }, [])
+
+
     const [data, setData] = useState({
         fullname: '',
         phone: '',
@@ -25,12 +35,12 @@ alert(`My Name is ${data.fullname}. My Mobile Number is ${data.phone}. My Email 
     return (
 
         <>
-            <div className='my-5'>
+            <div className='my-5' data-aos="fade-right" data-aos-delay="600" >
                 <h1 className='text-center'>
                     Contact Us
                 </h1>
             </div>
-            <div className='container contact-div'>
+            <div data-aos="fade-right" data-aos-delay="600" className='container contact-div'>
                 <div className='row'>
                     <div className='col-md-6 col-10 mx-auto'>
                         <form onSubmit={formSubmit}>

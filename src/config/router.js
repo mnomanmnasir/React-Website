@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import Contact from '../components/Contact'
 import Service from '../components/Service'
 import Home from '../components/Home'
@@ -15,7 +15,7 @@ class AppRouter extends React.Component {
                 <Route exact path='/about' component={About} />
                 <Route exact path='/service' component={Service} />
                 <Route exact path='/contact' component={Contact} />
-                {/* <Redirect to='/' /> */}
+                {/* <Redirect to='/about' /> */}
                 {/* <Route path='/service' component={Service} /> */}
             </Router>
         )
